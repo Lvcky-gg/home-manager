@@ -34,6 +34,7 @@
            ./terminal/kitty.nix
           ./editors/codium.nix
           ./fastfetch/fastfetch.nix
+          ./browser/fox.nix
         ];
 
 
