@@ -76,7 +76,7 @@
   #  /etc/profiles/per-user/lvcky/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-     EDITOR = "vscodium";
+     EDITOR = "vi";
   };
 
   # Let Home Manager install and manage itself.
