@@ -11,7 +11,7 @@
     nvf.url = "github:notashelf/nvf";
   };
 
-  outputs = { nixpkgs, home-manager, ... }:
+  outputs = { nixpkgs, self, ... }@inputs:
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
@@ -32,7 +32,7 @@
           ./waybar/style.nix
           ./waybar/settings.nix
            ./terminal/kitty.nix
-            ./editors/nvim.nix
+          #  ./editors/nvim.nix
         ];
 
 
