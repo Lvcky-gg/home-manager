@@ -11,12 +11,12 @@
     nvf.url = "github:notashelf/nvf";
   };
 
-  outputs = { nixpkgs, self, ... }@inputs:
+  outputs = { nixpkgs, home-manager, ... }@inputs:
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
     in {
-      homeConfigurations."lvcky" = self.lib.homeManagerConfiguration {
+      homeConfigurations."lvcky" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
 
         # Specify your home configuration modules here, for example,
