@@ -31,7 +31,7 @@
           ./waybar/style.nix
           ./waybar/settings.nix
            ./terminal/kitty.nix
-          # ./editors/nvim.nix
+           # ./editors/nvim.nix
         ];
 
 
