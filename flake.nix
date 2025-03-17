@@ -33,6 +33,7 @@
           ./waybar/settings.nix
            ./terminal/kitty.nix
           ./editors/codium.nix
+          ./fastfetch/fastfetch.nix
         ];
 
 
